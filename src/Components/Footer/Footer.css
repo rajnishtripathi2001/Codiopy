@@ -1,0 +1,46 @@
+.footer-top{
+    @apply flex  flex-wrap justify-around
+}
+
+.footer-top h2,h3{
+    @apply text-2xl font-semibold text-yellow-200
+}
+
+#tagline{
+    @apply mb-5
+}
+
+#divider{
+    @apply min-w-[80vw] m-[5vw] mb-2
+}
+
+.footer-top h3{
+    @apply mb-5
+}
+
+.footer-top-left, .footer-top-middle, .footer-top-right{
+    @apply min-w-[200px] m-10 p-0
+}
+
+.footer-bottom{
+    @apply  m-10 flex flex-col text-center
+}
+
+.icons{
+    @apply flex justify-between w-[30vw] text-[3rem] m-[auto] mb-10 ;
+}
+
+.copyright{
+    @apply text-yellow-200 text-lg
+}
+
+.heart{
+    @apply text-red-700
+}
+
+
+@media screen and (max-width:426px) {
+    .icons{
+        display: none;
+    }
+}

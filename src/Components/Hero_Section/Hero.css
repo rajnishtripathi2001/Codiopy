@@ -1,0 +1,59 @@
+.hero-container {
+  @apply h-[100vh] bg-[url('/public/Hero.png')] bg-cover bg-center bg-no-repeat text-white shadow-2xl pt-[10vh];
+}
+
+.hero-container h1 {
+  @apply text-[4vw] font-bold w-[60vw] mb-10 pl-[7vw] mt-[7vw];
+}
+
+.hero-container p {
+  @apply text-[2vw] font-semibold text-[#999999] pl-[7vw];
+}
+
+.hero-bottom {
+  @apply flex justify-around items-center mt-[9vw] w-[70%] pl-[7vw];
+}
+
+.hero-bottom lok {
+  @apply text-[2vw] font-semibold text-white max-w-[28%];
+}
+
+.hero-bottom p {
+  @apply text-[1vw] font-normal text-white ml-5;
+}
+
+.hero-bottom b {
+  @apply text-3xl font-bold text-white;
+}
+
+@media screen and (max-width: 426px) {
+  .hero-container h1 {
+    @apply text-6xl w-[100vw] p-0 m-0 mt-24 text-center;
+  }
+
+  .hero-container p {
+    @apply text-2xl w-[100%] mt-[20vw] text-center;
+  }
+
+  .hero-bottom {
+    @apply hidden;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .hero-container h1 {
+    @apply mt-[15vw] text-5xl;
+  }
+
+  .hero-container p {
+    @apply text-[20px];
+  }
+
+  .hero-bottom {
+    @apply mt-[9vw] w-[fit-content] max-w-[70vh] ml-[7vw] pl-1;
+  }
+
+  .hero-bottom p {
+    @apply text-[1vw] font-normal text-white ml-5;
+  }
+}

@@ -1,0 +1,25 @@
+#clients{
+    @apply text-white p-[10vw];
+}
+
+#clients h1 {
+    @apply text-4xl font-bold mb-16 text-[whitesmoke];
+  }
+  
+  #clients h1 span {
+    @apply text-[#FF5A5F];
+  }
+
+.client-logo-row{
+    @apply flex flex-wrap;
+}
+
+.client-logo{
+    @apply max-w-[200px] m-5
+}
+
+@media screen and (max-width: 768px) {
+    #clients h1{
+        @apply text-2xl mt-5;
+    }
+}

@@ -1,0 +1,39 @@
+#about{
+    @apply bg-white text-[#33363D] p-[10vw];
+}
+
+/* pl-[15vw] pr-[15vw] pt-[10vw] pb-[8vw] */
+
+#about h1{
+    @apply text-4xl font-bold mb-16;
+}
+
+#about h1 span{
+    @apply text-[#FF5A5F];
+}
+
+#pbold{
+    @apply text-[2rem] mb-10 font-bold tracking-wide;
+}
+
+#psmall{
+    @apply text-xl mb-10 tracking-tight text-[#1f1f1f];
+}
+
+#about p a{
+    @apply text-[#FF5A5F] font-bold;
+}
+
+@media screen and (max-width: 768px) {
+    #about h1{
+        @apply text-2xl;
+    }
+
+    #pbold{
+        @apply text-[1rem] ;
+    }
+    
+    #psmall{
+        @apply text-base;
+    }
+}
