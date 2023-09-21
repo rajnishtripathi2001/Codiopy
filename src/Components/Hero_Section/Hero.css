@@ -27,12 +27,13 @@
 }
 
 @media screen and (max-width: 426px) {
+
   .hero-container h1 {
     @apply text-6xl w-[100vw] p-0 m-0 mt-24 text-center;
   }
 
   .hero-container p {
-    @apply text-2xl w-[100%] mt-[20vw] text-center;
+    @apply text-2xl w-[100%] mt-[15vw] text-center;
   }
 
   .hero-bottom {

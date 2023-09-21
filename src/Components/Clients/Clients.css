@@ -22,4 +22,8 @@
     #clients h1{
         @apply text-2xl mt-5;
     }
+
+    .client-logo-row{
+        @apply justify-center;
+    }
 }

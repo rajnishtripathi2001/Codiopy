@@ -34,3 +34,8 @@
     @apply translate-y-[-10px] transition-all duration-300 ease-in-out bg-[#FF5A5F] text-white;
 }
 
+@media screen and (max-width: 768px) {
+    #services h1{
+        @apply text-2xl mt-5;
+    }
+}
