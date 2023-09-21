@@ -7,6 +7,8 @@ import Clients from './Components/Clients/Clients';
 import Services from './Components/Services/Services';
 import Team from './Components/Team/Team';
 import Work from './Components/Work/Work';
+import Contact from './Components/Contact/Contact';
+import Rating from './Components/Rating/Rating';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
      <Services/>
      <Team/>
      <Work/>
+     <Rating/>
+     <Contact/>
      <Footer/>
     </>
   );

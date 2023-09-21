@@ -1,0 +1,18 @@
+.fig {
+  @apply max-w-screen-md mx-auto text-center m-[10vw] p-2;
+}
+
+.fig svg {
+  @apply w-10 h-10 mx-auto mb-3 text-white;
+}
+
+.review {
+  @apply text-2xl italic font-medium text-white;
+}
+
+.fig-cap {
+  @apply flex items-center justify-center mt-6 space-x-3;
+}
+
+
+
